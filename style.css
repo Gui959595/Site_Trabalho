@@ -89,3 +89,24 @@ a:hover {
     padding-right:300px;
    padding-top: 10px;
 }
+
+  /* media query para dispositivos móveis */
+@media only screen and (max-width: 767px) {
+.wrapper {
+grid-column-start: 1;
+grid-column-end: 1;
+
+}
+
+.img {
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+ }
+
+ .p1 {
+grid-column-start: 1;
+grid-column-end: 1;
+
+}
+        }
